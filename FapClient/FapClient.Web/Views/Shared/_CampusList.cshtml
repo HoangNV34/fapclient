@@ -1,0 +1,18 @@
+﻿@page
+@model List<Campus>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Campus/Program</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>@item.CampusName</th>
+            </tr>
+        }
+    </tbody>
+</table>

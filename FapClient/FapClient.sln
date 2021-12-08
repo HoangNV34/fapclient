@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.31903.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FapClient.Core", "FapClient.Core\FapClient.Core.csproj", "{096BAEF4-18B8-456F-A753-7AC5D11706BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FapClient.Core", "FapClient.Core\FapClient.Core.csproj", "{096BAEF4-18B8-456F-A753-7AC5D11706BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FapClient.Web", "FapClient.Web\FapClient.Web.csproj", "{41C42EE4-64DC-4F7E-AE41-16389550E140}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FapClient.Web", "FapClient.Web\FapClient.Web.csproj", "{41C42EE4-64DC-4F7E-AE41-16389550E140}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -13,6 +13,7 @@ namespace FapClient.Web.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly AP2Context context = new AP2Context();
 
         public HomeController(ILogger<HomeController> logger)
         {
@@ -21,9 +22,7 @@ namespace FapClient.Web.Controllers
 
         public IActionResult Index()
         {
-            AP2Context context = new AP2Context();
-            var list = context.Students.ToList();
-            return View(list);
+            return View();
         }
 
         public IActionResult Privacy()

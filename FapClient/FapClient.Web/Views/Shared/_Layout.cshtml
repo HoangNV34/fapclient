@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - FapClient.Web</title>
+    <title>View attendance for student</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
@@ -30,7 +30,12 @@
         </nav>
     </header>
     <div class="container">
-        <main role="main" class="pb-3">
+        <main role="main">
+            <div class="row">
+                <div class="col-3">
+                    <partial name="_CampusList"/>
+                </div>
+            </div>
             @RenderBody()
         </main>
     </div>
