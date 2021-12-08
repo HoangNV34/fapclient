@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/FapClient/.vs/FapClient/v17
+/FapClient/FapClient.Core/obj/Debug/net5.0
+/FapClient/FapClient.Core/bin/Debug/net5.0
+/FapClient/FapClient.Core/obj
+/FapClient/FapClient.Web/bin/Debug/net5.0
+/FapClient/FapClient.Web/obj
